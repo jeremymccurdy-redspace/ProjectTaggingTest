@@ -18,7 +18,7 @@ jobs:
       - uses: gr2m/org-stats-action@v1.x
         id: stats
         with:
-          org: octokit
+          org: springroll
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
